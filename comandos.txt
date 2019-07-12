@@ -1,0 +1,10 @@
+[Esta linea se ejecuta en la terminal para crear un nuevo proyecto de React]
+npx create-react-app wheather-app
+
+[Generar un bandle entrar a la carpeta wheather-app]
+cd .\wheather-app\
+
+[Para lanzar la aplicación de react]
+yarn start
+o
+npm start
