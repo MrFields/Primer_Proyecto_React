@@ -11,7 +11,7 @@ const WeatherLocation = () => (
    //Dentro del componente WeatherLocation se meterá  el componente Location
    //DEntro del componente Location se le pasa una variable city={"Carmen de La Laja"}
    <div>
-      <Location city ={"Carmen de La Laja"} ></Location>
+      <Location city ={"Monterrey"} ></Location>
       <WeatherData></WeatherData>
    </div>
 );

@@ -2,9 +2,10 @@
 import React from 'react';
 
 //Se crea un modulo que contrentra información extra para el contenedor
-const WeatherExtraInfo = () => (
+const WeatherExtraInfo = ({humidity, wind}) => (
    <div>
-      WeatherExtraInfo
+      <span>{`${humidity} % - `}</span>
+      <span>{`${wind} viento`}</span>
    </div>
 );
 //Se exporta el modulo para utilizarlo en algun otro lugar de la aplicación
